@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="8.494" tests="4" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/geethanjalimohantty/Desktop/api-test-framework/target/test-classes:/Users/geethanjalimohantty/Desktop/api-test-framework/target/classes:/Users/geethanjalimohantty/.m2/repository/io/cucumber/cucumber-java/6.10.4/cucumber-java-6.10.4.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/cucumber-core/6.10.4/cucumber-core-6.10.4.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/cucumber-gherkin/6.10.4/cucumber-gherkin-6.10.4.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.4/cucumber-gherkin-messages-6.10.4.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/cucumber-plugin/6.10.4/cucumber-plugin-6.10.4.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/docstring/6.10.4/docstring-6.10.4.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/Users/geethanjalimohantty/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/cucumber-junit/6.10.4/cucumber-junit-6.10.4.jar:/Users/geethanjalimohantty/.m2/repository/io/rest-assured/rest-assured/5.3.1/rest-assured-5.3.1.jar:/Users/geethanjalimohantty/.m2/repository/org/apache/groovy/groovy/4.0.11/groovy-4.0.11.jar:/Users/geethanjalimohantty/.m2/repository/org/apache/groovy/groovy-xml/4.0.11/groovy-xml-4.0.11.jar:/Users/geethanjalimohantty/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/geethanjalimohantty/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/geethanjalimohantty/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/geethanjalimohantty/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/geethanjalimohantty/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/geethanjalimohantty/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/geethanjalimohantty/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/geethanjalimohantty/.m2/repository/io/rest-assured/json-path/5.3.1/json-path-5.3.1.jar:/Users/geethanjalimohantty/.m2/repository/org/apache/groovy/groovy-json/4.0.11/groovy-json-4.0.11.jar:/Users/geethanjalimohantty/.m2/repository/io/rest-assured/rest-assured-common/5.3.1/rest-assured-common-5.3.1.jar:/Users/geethanjalimohantty/.m2/repository/io/rest-assured/xml-path/5.3.1/xml-path-5.3.1.jar:/Users/geethanjalimohantty/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/geethanjalimohantty/.m2/repository/io/qameta/allure/allure-cucumber6-jvm/2.13.9/allure-cucumber6-jvm-2.13.9.jar:/Users/geethanjalimohantty/.m2/repository/io/qameta/allure/allure-java-commons/2.13.9/allure-java-commons-2.13.9.jar:/Users/geethanjalimohantty/.m2/repository/io/qameta/allure/allure-model/2.13.9/allure-model-2.13.9.jar:/Users/geethanjalimohantty/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.2/jackson-databind-2.12.2.jar:/Users/geethanjalimohantty/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.2/jackson-annotations-2.12.2.jar:/Users/geethanjalimohantty/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.2/jackson-core-2.12.2.jar:/Users/geethanjalimohantty/.m2/repository/org/apache/tika/tika-core/1.25/tika-core-1.25.jar:/Users/geethanjalimohantty/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/gherkin/18.0.0/gherkin-18.0.0.jar:/Users/geethanjalimohantty/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/geethanjalimohantty/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/geethanjalimohantty/.m2/repository/org/slf4j/slf4j-simple/2.0.9/slf4j-simple-2.0.9.jar:/Users/geethanjalimohantty/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/geethanjalimohantty/Desktop/api-test-framework/target/surefire/surefirebooter-20250627152345817_3.jar /Users/geethanjalimohantty/Desktop/api-test-framework/target/surefire 2025-06-27T15-23-45_774-jvmRun1 surefire-20250627152345817_1tmp surefire_0-20250627152345817_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/geethanjalimohantty/Desktop/api-test-framework/target/test-classes:/Users/geethanjalimohantty/Desktop/api-test-framework/target/classes:/Users/geethanjalimohantty/.m2/repository/io/cucumber/cucumber-java/6.10.4/cucumber-java-6.10.4.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/cucumber-core/6.10.4/cucumber-core-6.10.4.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/cucumber-gherkin/6.10.4/cucumber-gherkin-6.10.4.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.4/cucumber-gherkin-messages-6.10.4.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/cucumber-plugin/6.10.4/cucumber-plugin-6.10.4.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/docstring/6.10.4/docstring-6.10.4.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/Users/geethanjalimohantty/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/cucumber-junit/6.10.4/cucumber-junit-6.10.4.jar:/Users/geethanjalimohantty/.m2/repository/io/rest-assured/rest-assured/5.3.1/rest-assured-5.3.1.jar:/Users/geethanjalimohantty/.m2/repository/org/apache/groovy/groovy/4.0.11/groovy-4.0.11.jar:/Users/geethanjalimohantty/.m2/repository/org/apache/groovy/groovy-xml/4.0.11/groovy-xml-4.0.11.jar:/Users/geethanjalimohantty/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/geethanjalimohantty/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/geethanjalimohantty/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/geethanjalimohantty/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/geethanjalimohantty/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/geethanjalimohantty/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/geethanjalimohantty/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/geethanjalimohantty/.m2/repository/io/rest-assured/json-path/5.3.1/json-path-5.3.1.jar:/Users/geethanjalimohantty/.m2/repository/org/apache/groovy/groovy-json/4.0.11/groovy-json-4.0.11.jar:/Users/geethanjalimohantty/.m2/repository/io/rest-assured/rest-assured-common/5.3.1/rest-assured-common-5.3.1.jar:/Users/geethanjalimohantty/.m2/repository/io/rest-assured/xml-path/5.3.1/xml-path-5.3.1.jar:/Users/geethanjalimohantty/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/geethanjalimohantty/.m2/repository/io/qameta/allure/allure-cucumber6-jvm/2.13.9/allure-cucumber6-jvm-2.13.9.jar:/Users/geethanjalimohantty/.m2/repository/io/qameta/allure/allure-java-commons/2.13.9/allure-java-commons-2.13.9.jar:/Users/geethanjalimohantty/.m2/repository/io/qameta/allure/allure-model/2.13.9/allure-model-2.13.9.jar:/Users/geethanjalimohantty/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.2/jackson-databind-2.12.2.jar:/Users/geethanjalimohantty/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.2/jackson-annotations-2.12.2.jar:/Users/geethanjalimohantty/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.2/jackson-core-2.12.2.jar:/Users/geethanjalimohantty/.m2/repository/org/apache/tika/tika-core/1.25/tika-core-1.25.jar:/Users/geethanjalimohantty/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/geethanjalimohantty/.m2/repository/io/cucumber/gherkin/18.0.0/gherkin-18.0.0.jar:/Users/geethanjalimohantty/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/geethanjalimohantty/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/geethanjalimohantty/.m2/repository/org/slf4j/slf4j-simple/2.0.9/slf4j-simple-2.0.9.jar:/Users/geethanjalimohantty/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:"/>
+    <property name="allure.results.directory" value="target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/geethanjalimohantty"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/geethanjalimohantty/Desktop/api-test-framework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/geethanjalimohantty/Desktop/api-test-framework/target/surefire/surefirebooter-20250627152345817_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.3+7-LTS-152"/>
+    <property name="user.name" value="geethanjalimohantty"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/geethanjalimohantty/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/7p/lg2g53kd5qvbgbp233rgg8500000gn/T/"/>
+    <property name="java.version" value="21.0.3"/>
+    <property name="user.dir" value="/Users/geethanjalimohantty/Desktop/api-test-framework"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/geethanjalimohantty/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.3+7-LTS-152"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="Valid login with correct email and password" classname="Login API Token Generation" time="5.871">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at stepdefs.StepDefs.validateStatusCode(StepDefs.java:48)
+	at ✽.status code should be 200(file:///Users/geethanjalimohantty/Desktop/api-test-framework/src/test/java/features/Login.feature:5)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Valid login with correct email and password                                # src/test/java/features/Login.feature:3
+Login request body: {password=qwert@123, email=gitanjalee.mohanty3@gmail.com}
+Login response: {"detail":"Incorrect email or password"}
+  When user sends POST request to login endpoint with valid credentials              # stepdefs.StepDefs.sendLoginRequest()
+  Then status code should be 200                                                     # stepdefs.StepDefs.validateStatusCode(int)
+      java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at stepdefs.StepDefs.validateStatusCode(StepDefs.java:48)
+	at ✽.status code should be 200(file:///Users/geethanjalimohantty/Desktop/api-test-framework/src/test/java/features/Login.feature:5)
+
+  And response body should contain a valid access token and token type               # stepdefs.StepDefs.validateResponseBody()
+  And response headers should include content-length, content-type, date, and server # stepdefs.StepDefs.validateResponseHeaders()
+]]></system-out>
+  </testcase>
+  <testcase name="Valid Signup" classname="Signup API Tests" time="0.23">
+    <system-out><![CDATA[
+Scenario: Valid Signup                                   # src/test/java/features/SignUp.feature:3
+Signup Request Body: {password=qwert@123, id=42363, email=gitanjalee.mohanty3@gmail.com}
+Response for valid signup: {"message":"User created successfully"}
+  When user sends POST request with valid signup details # stepdefs.StepDefs.validSignup()
+  Then status code should be 200                         # stepdefs.StepDefs.validateStatusCode(int)
+]]></system-out>
+  </testcase>
+  <testcase name="Signup with empty email" classname="Signup API Tests" time="0.012">
+    <system-out><![CDATA[
+Scenario: Signup with empty email                                  # src/test/java/features/SignUp.feature:7
+Request with empty email: {password=qwert@123, email=}
+Response: {"detail":"Email already registered"}
+  When user sends POST request with empty email and valid password # stepdefs.StepDefs.signupWithEmptyEmail()
+  Then status code should be 400                                   # stepdefs.StepDefs.validateStatusCode(int)
+]]></system-out>
+  </testcase>
+  <testcase name="Signup with valid email and empty password" classname="Signup API Tests" time="0.015">
+    <system-out><![CDATA[
+Scenario: Signup with valid email and empty password               # src/test/java/features/SignUp.feature:11
+Request with empty password: {password=, email=gitanjalee.mohanty3@gmail.com}
+Response: {"detail":"Email already registered"}
+  When user sends POST request with valid email and empty password # stepdefs.StepDefs.signupWithEmptyPassword()
+  Then status code should be 400                                   # stepdefs.StepDefs.validateStatusCode(int)
+]]></system-out>
+  </testcase>
+</testsuite>
