@@ -44,11 +44,13 @@ jobs:
         run: mvn verify
         continue-on-error: true
 
+
       - name: Generate Allure Report
         run: |
           allure generate target/allure-results --clean -o target/allure-report
+          sed -i 's|href="/|href="./|g; s|src="/|src="./|g' target/allure-report/index.html
         continue-on-error: true
-
+        
       - name: Upload Allure HTML Report
         uses: actions/upload-artifact@v4
         with:
