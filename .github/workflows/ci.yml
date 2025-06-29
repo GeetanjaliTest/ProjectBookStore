@@ -1,4 +1,4 @@
-name: CI Pipeline with Cucumber, Allure & JaCoCo
+name: CI Pipeline for Cucumber Tests
 
 on:
   push:
@@ -6,20 +6,21 @@ on:
   pull_request:
 
 jobs:
-  test:
+  run-tests:
+    name: Run Tests on Push
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: 🛎️ Checkout source code
         uses: actions/checkout@v4
 
-      - name: Set up JDK 17
+      - name: 🔧 Set up JDK 17
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Cache Maven dependencies
+      - name: 📦 Cache Maven dependencies
         uses: actions/cache@v4
         with:
           path: ~/.m2
@@ -27,7 +28,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven
 
-      - name: Install Allure CLI
+      - name: 🔽 Install Allure CLI
         run: |
           curl -o allure.tgz -L https://github.com/allure-framework/allure2/releases/latest/download/allure-2.27.0.tgz
           tar -xzf allure.tgz
@@ -35,23 +36,23 @@ jobs:
           sudo ln -s /opt/allure/bin/allure /usr/bin/allure
           allure --version
 
-      - name: Run tests and generate Allure results
+      - name: 🧪 Run Cucumber Tests & Generate Allure Results
         run: mvn clean test -Dallure.results.directory=target/allure-results
 
-      - name: Generate Allure Report
+      - name: 📈 Generate Code Coverage Report
+        run: mvn verify
+
+      - name: 📊 Generate Allure Report
         run: |
           allure generate target/allure-results --clean -o target/allure-report
 
-      - name: Upload Allure HTML report
+      - name: 📁 Upload Allure HTML Report
         uses: actions/upload-artifact@v4
         with:
           name: allure-report
           path: target/allure-report
 
-      - name: Generate JaCoCo coverage report
-        run: mvn verify
-
-      - name: Upload JaCoCo Code Coverage report
+      - name: 📁 Upload JaCoCo Code Coverage Report
         uses: actions/upload-artifact@v4
         with:
           name: jacoco-report
